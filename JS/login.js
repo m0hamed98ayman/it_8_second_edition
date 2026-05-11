@@ -14,6 +14,6 @@ document.querySelector("form").onsubmit = function(e){
         localStorage.setItem("login_username", user);
         
         alert("تم تسجيل الدخول بنجاح");
-        window.location.href = "../Pages/Home_page.html";
+        window.location.href = "../Pages/index.html";
     }
 }
