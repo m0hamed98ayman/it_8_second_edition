@@ -130,3 +130,7 @@ h1{
     cursor: pointer;
 
 }
+input {
+    background-color: transparent;
+    color: black; 
+}

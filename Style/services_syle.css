@@ -355,3 +355,7 @@ hr {
     cursor: pointer;
 
 }
+input {
+    background-color: transparent;
+    color: black; 
+}

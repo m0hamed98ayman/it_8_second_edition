@@ -34,5 +34,9 @@ if (fullName.length < 3) {
     e.preventDefault();
     return;
 }
+localStorage.setItem("user", JSON.stringify({
+        fullName: fullName,
+        email: email,
+        isSignedUp: true
+    }));
 };
-

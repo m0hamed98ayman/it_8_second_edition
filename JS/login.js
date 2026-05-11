@@ -10,6 +10,7 @@ document.querySelector("form").onsubmit = function(e){
     else if(pass.length < 6){
         alert("the minimum number of char or num is 6");
     }else{
+        // استخدام اسم الصفحة قبل المفتاح عشان ما يتلخبطش مع باقي الصفحات
         localStorage.setItem("login_username", user);
         
         alert("تم تسجيل الدخول بنجاح");
