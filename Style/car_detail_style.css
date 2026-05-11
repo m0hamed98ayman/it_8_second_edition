@@ -1,0 +1,170 @@
+
+
+
+  
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(248, 249, 250);
+}
+.uni {
+    margin-right: auto;
+}
+
+h2{
+   text-align: center;
+    font-family: 'Montserrat', sans-serif;}
+
+.price{text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #555;
+        font-size: 15px;
+    font-weight: 200;
+    margin-top:-10px;
+    margin-bottom: 30px;
+}
+
+strong{font-weight: 800;
+    color: #111; 
+    font-size: 15px}
+hr {
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    height: 1px;
+}
+img{width:600px;
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+
+.detail-section {
+  display: flex;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.specs-column, .video-column {
+  flex: 1; 
+  min-width: 300px;
+}
+.section-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+}
+.spec-row {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-row:last-child {
+  border-bottom: none; 
+}
+
+.spec-label {
+  flex: 0 0 130px; 
+  color: #888;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.spec-value {
+  flex: 1;
+  font-size: 13px;
+  color: #333;
+}
+
+.spec-value strong {
+  display: block;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.spec-value ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.spec-value li {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+
+
+
+.video-container {
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  background-color: #222;
+  margin-bottom: 15px;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-description {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+}
+/*///////////////////////me code///////////////////////*/
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 15px;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.luxurybutton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}

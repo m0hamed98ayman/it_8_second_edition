@@ -1,0 +1,149 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 15px;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.luxurybutton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+
+
+
+.blackHr {
+    margin: 0 auto;
+    margin-bottom: 25px; 
+    background-color: black;
+    border: none;
+    height: 1.5px;
+    width: 80%;
+    max-width: 900px;
+}
+
+h2 {
+    display: block;
+    margin: 20px auto 5px auto; 
+}
+
+.puretext {
+    color: grey;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom:  10px; ;
+    padding: 0 20px;
+}
+
+.carCard {
+    border: 0.5px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px grey;
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: auto; 
+    padding-bottom: 15px; 
+    overflow: hidden; 
+    transition: 0.5s;
+}
+.carCard:hover{
+transform: translateY(-10px);
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+transition: 0.5s;
+
+}
+
+img {
+    width: 100%; 
+    height: 190px;
+    object-fit: cover; 
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+small {
+    color: grey;
+    font-size: 10px;
+}
+
+.price {
+    padding: 5px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.rent_button {
+    border: 1px solid black;
+    margin: 15px auto 0 auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px 55px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.rent_button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.hr1{
+   
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    height: 1px;
+
+}
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}

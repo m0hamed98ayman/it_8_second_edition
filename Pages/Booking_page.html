@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="../Style/theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--اضافة مكتبة الايقونات-->   
+    <link rel="stylesheet" href="../Style/Booking_style.css">
+</head>
+<body>
+     <nav>
+        <a class="luxurybutton" href="index.html"> Luxury Motors </a>
+        <ul>
+           <button id="dark-mode-button">🌙</button>
+           <li><a href="index.html"> Home </a></li>
+           <li><a href="Login_page.html"> Login </a></li>
+           <li><a href="catalog_page.html"> Catalog </a></li>
+           <li><a href="services_page.html"> Services </a></li>
+           <li><a href="contact_us_page.html"> Contact </a></li>
+        </ul>
+     </nav><hr class="hr1">
+     <main class="container"> 
+        <section class="left">
+            <h1 class="main-title">READY FOR YOUR NEXT DRIVE?</h1>
+            <p class="sub-text">
+                Whether you want to test drive your dream car, rent a luxury
+                vehicle for the weekend, or schedule a premium maintenance
+                service, our team is here to provide a first-class experience.
+            </p>
+            <div class="contact-info">
+                  <div class="info-item">
+                         <i class="fa-solid fa-clock"></i> <!--اضافة ايقونة الساعة -->
+                         <div class="info-text">
+                             <h4>OPENING HOURS</h4>
+                             <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                         </div>
+                   </div>
+
+                   <div class="info-item">
+                         <i class="fa-solid fa-headset"></i> <!-- اضافة ايقونة السماعات-->
+                         <div class="info-text">
+                             <h4>DIRECT SUPPORT</h4>
+                             <p>+1 (800) 555-0199</p>
+                         </div>
+                  </div>
+           </div>
+        </section>
+        <form class="right">
+            <h1>BOOKING DETAILS</h1>
+            <hr>
+            <div class="row1">
+                <div class="input-groupe">
+                    <label>FIRST NAME</label>
+                    <input class="in" type ="text" placeholder="Enter first name">
+                </div>
+                <div class="input-groupe">
+                    <label>PHONE NUMBER</label>
+                    <input class="in" type="number" placeholder="+1 (123) 456-7890">
+                </div>
+                
+                
+            </div>
+                <div class="row1">
+                    <div class="input-groupe">
+                       <label>BOOKING TYPE</label>
+                       <select id="booking-type" class="in">
+                           <option value="" disabled selected>Select an option</option>
+                           <option value="test-drive">Test Drive</option>
+                           <option value="rental">Luxury Rental</option>
+                           <option value="maintenance">Premium Maintenance</option>
+                           <option value="detailing">Car Detailing & Wash</option>
+                    </select>
+                    </div>
+                    <div class="input-groupe">
+                       <label>SELECT VEHICLE</label>
+                       <select id="select-vehicle" class="in">
+                          <option value="" disabled selected>Choose a car</option>
+                          <option value="mercedes-s-class">Mercedes-Benz S-Class</option>
+                          <option value="bmw-m8">BMW M8 Competition</option>
+                          <option value="audi-rs7">Audi RS7 Sportback</option>
+                          <option value="porsche-911">Porsche 911 Turbo S</option>
+                          <option value="range-rover">Range Rover Autobiography</option>
+                          <option value="lamborghini-urus">Lamborghini Urus</option>
+                       </select>
+                    </div>
+                </div>
+            <div class="row1">
+                <div class="input-groupe">
+                    <label>PREFERRED DATE</label>
+                    <input type="date" id="preferred-date" class="in">
+                </div>
+
+                <div class="input-groupe">
+                    <label>PREFERRED TIME</label>
+                    <input type="time" id="preferred-time" class="in">
+                </div>
+            </div>
+            <div class="input-groupe">
+                <label>ADDITIONAL REQUIREMENTS</label>
+                <textarea id="additional-requirements" class="in" rows="4" placeholder="Tell us if you need a chauffeur,specific maintenance issue, or any special requests..."></textarea>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" id="confirm-btn">CONFIRM BOOKING</button>
+            </div>  
+        </form>
+     </main>
+     <script src="../JS/Booking_JS.js"></script>
+     <script src="../JS/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Style/theme.css">
+    <link rel="stylesheet" href="../Style/Login_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.luxurybutton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+
+.main-div{
+    display: flex;
+    height:100vh;
+    flex-direction: row-reverse;
+    align-items:center;
+    height:100%;
+}
+    </style>
+</head>
+<body>
+    <nav>
+    <a class="luxurybutton" href="index.html"> Luxury Motors </a>
+    <ul>
+        <button id="dark-mode-button">🌙</button>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="Login_page.html"> Login </a></li>
+        <li><a href="catalog_page.html"> Catalog </a></li>
+        <li><a href="services_page.html"> Services </a></li>
+        <li><a href="contact_us_page.html"> Contact </a></li>
+    </ul>
+        </nav>
+        <hr id="hr1">
+</body>
+    <main>
+    <div class="main-div"><div class="form-div"><h2>L O G I N</h2>
+        <br>
+    <p>welcome back! please enter your details.</p>
+    <br>
+    <br>
+    <br>
+    <form>
+        <label for="username">USERNAME</label>
+        <br>
+        <br>
+        <input id="username" placeholder="Enter your name " type="text" >
+        <hr>
+        <br>
+        <label for="password">PASSWORD</label>
+        <br>
+        <br>
+        <input id="password" placeholder="********" type="password">
+        <hr>
+        <br>
+        <br>
+        <input id="sign-in" type="submit" value="L O G I N">
+        <br>
+        <br>
+        <br>
+        <p id="end">Don't have an account? <a id="sign" href="Signup_page.html">SIGN UP</a></p>
+    </form></div>
+    <div class="img-div"><img src="../Assets/images/login_car.jpeg" alt="porche car"></div>
+    </div>
+
+    </main>
+    <script src="../JS/login.js"></script>
+    <script src="../JS/theme.js"></script>
+</body>
+</html>

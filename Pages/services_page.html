@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Motors - Premium Services</title>
+    <link rel="stylesheet" href="../Style/theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../Style/services_syle.css">
+</head>
+<body>
+    <nav>
+    <a class="luxurybutton" href="index.html"> Luxury Motors </a>
+    <ul>
+        <button id="dark-mode-button">🌙</button>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="Login_page.html"> Login </a></li>
+        <li><a href="catalog_page.html"> Catalog </a></li>
+        <li><a href="services_page.html"> Services </a></li>
+        <li><a href="contact_us_page.html"> Contact </a></li>
+    </ul>
+        </nav><hr>
+
+    <section class="hero">
+        <div class="container">
+            <h1>PREMIUM SERVICES</h1><!-- العنوان الرئيسي-->
+            <p>WE OFFER PROFESSIONAL CAR SERVICES</p> <!-- الرغي الي تحت العنوان الرئيسي-->
+        </div>
+    </section>
+
+    <section class="services"> <!-- دا البابا-->    <!-- هنا عرفنا 4 عشان الخدمات الي عندنا 4-->
+        <div class="container"><!-- css دوره تنسيق فقط عشان لما نكتب ال  ميبقاش لازق في الاطراف-->
+            <div class="services-grid">  <!-- شبكة ربطاهم ببعض منعا للغبطه -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>ROUTINE MAINTENANCE</h3> <!--اول جزء-->
+                    <p>Automotive preventive maintenance is the key to keeping your vehicle running in optimal condition. Regular maintenance helps extend the life of your vehicle.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>PERFORMANCE TUNING</h3><!-- تاني جزء-->
+                    <p>Unlock your vehicle's full potential with our expert performance tuning services. We optimize engine performance for maximum power and efficiency.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>CLEANING & WAXING, EXTERIOR</h3><!-- تالت جزء-->
+                    <p>Keep your vehicle looking showroom new with our professional exterior cleaning and waxing services. We use premium products for lasting shine.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>SUSPENSION & SHOCK ABSORBERS</h3><!-- رابع جزء-->
+                    <p>Ensure a smooth and safe ride with our suspension and shock absorber services. We diagnose and repair all suspension issues for optimal handling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--هنا خلصنا الاقسام والشريط الي فوق هنخش علي الحجز واللوكيشن -->
+    <section class="booking-contact">
+        <div class="container">
+            <div class="booking-contact-grid">
+                <div class="booking-section">
+                    <h2 >BOOK AN APPOINTMENT</h2>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label>FULL NAME</label>
+                            <input type="text" placeholder="Your name" >
+                        </div>
+                        <div class="form-group">
+                            <label>EMAIL ADDRESS</label>
+                            <input type="email" placeholder="Your email" >
+                        </div>
+                        <div class="form-group">
+                            <label>SELECT DATE & TIME</label>
+                            <input type="datetime-local" >
+                        </div>
+                        <div class="form-group">
+                            <!-- دا كله ادخال بيانات ب انوعها اسسم وايميل والخ ركزو ف الي جي -->
+                            <label>SELECT SERVICE</label>
+
+                            <select ><!-- القائمه الي بنختار منها الخدمه -->
+                                <option value="">Select a service</option>
+                                <option value="routine">Routine Maintenance</option>
+                                <option value="performance">Performance Tuning</option>
+                                <option value="cleaning">Cleaning & Waxing</option>
+                                <option value="suspension">Suspension & Shock Absorbers</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>COMMENTS</label>
+                            <textarea rows="4" placeholder="Additional information"></textarea>
+                        </div><!----------------------------------->
+                        <a href="Booking_page.html" class="submit-btn">BOOK AN APPOINTMENT</a>
+                    </form>
+                </div>
+
+                <div class="contact-section">
+                    <h2>VISIT OUR GARAGE</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i><!-- علامه دبوس للوكيشن حاجه جاهزة كدا تقريبا مخدناهاش قبل كدا-->
+                            <p>https://www.luxury-motors.com/our-location-123456</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.1276%2C51.5074%2C-0.1076%2C51.5174&layer=mapnik" width="100%" height="250" frameborder="0"></iframe>
+                    <!--الي فوق دي تاج للوكيشن كانت ف اخر كام فيديو ف الكورس -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../JS/services_js.js"></script>
+    <script src="../JS/theme.js"></script>
+</body>
+</html>

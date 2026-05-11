@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../Style/theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../Style/contact_us_style.css">
+</head>
+<body>
+  <nav>
+    <a class="luxurybutton" href="index.html"> Luxury Motors </a>
+    <ul>
+        <button id="dark-mode-button">🌙</button>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="Login_page.html"> Login </a></li>
+        <li><a href="catalog_page.html"> Catalog </a></li>
+        <li><a href="services_page.html"> Services </a></li>
+        <li><a href="contact_us_page.html"> Contact </a></li>
+    </ul>
+        </nav><hr>
+    <main>
+        <div class="left">
+        <h2>GET IN TOUCH</h2>
+        <p>we are here to assist you with any inquires,feedback, or concerns.</p>
+        <p>Reach out to our dedicated support team</p>
+        <h4>CUSTOMER SERVICE</h4>
+        <i class="fa-solid fa-phone"></i>
+        <P>+1(800)555-0199</P>
+        <h4>EMAIL US</h4>
+        <i class="fa-solid fa-envelope"></i>
+        <P>support@luxurymotors.com</P>
+        <h4>HEADQUARTERS</h4>
+        <i class="fa-solid fa-location-dot"></i>
+        <P>123 Luxury Avenue,Automotive District,10024</P>
+        </div>
+        <div class="rightside">
+        <form id="contactform">
+            <h3 class="h3-3">FEEDBACK & COMPLAINTS</h3>
+            <label for="FULLNAME"> FULL NAME</label>
+            
+            <input type="text" id="FULLNAME" placeholder="Enter your full name">
+            
+            <label for="EMAIL">EMAIL ADDRESS</label>
+            
+            <input type="EMAIL" id="EMAIL" placeholder="Enter your email">
+            
+            <label for="SUBJECT">SUBJECT TYPE</label>
+            
+            <select id="SUBJECT" name="Select category">
+                <option value="Oil Change">Oil change</option>
+                <option value="Tire Rotation">Tire Rotation</option>
+                <option value="Brake inspection">Brake Inspection</option>
+                <option value="Battery check">Battery Check</option>
+                <option value="General Maintenance">General Maintenance</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label for="MESSAGE">YOUR MESSAGE</label>
+            <br>
+            <input type="text" id="MESSAGE" placeholder="Please describe your inquiry or complaint in detail.">
+            <br>
+            <input type="submit" value="Send your message" id="send">
+        </form>
+        </div>
+    </main>
+    <script src="../JS/contact_JS.js"></script>
+    <script src="../JS/theme.js"></script>
+</body>
+</html>

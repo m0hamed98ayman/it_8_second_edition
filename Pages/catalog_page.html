@@ -1,0 +1,60 @@
+<!Doctype Html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Catalog | Luxury Motors</title>
+        <link rel="stylesheet" href="../Style/theme.css">
+        <link rel="stylesheet" href="../Style/catalog_style.css">
+    </head>
+    <body>  
+        <nav>
+    <a class="luxurybutton" href="index.html"> Luxury Motors </a>
+    <ul>
+        <button id="dark-mode-button">🌙</button>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="Login_page.html"> Login </a></li>
+        <li><a href="catalog_page.html"> Catalog </a></li>
+        <li><a href="services_page.html"> Services </a></li>
+        <li><a href="contact_us_page.html"> Contact </a></li>
+    </ul>
+        </nav><hr class ="hr1"><br>
+       <h2 >Sports & SuperCars</h2>
+        <small class = "puretext">Pure Adrenaline</small>
+        <hr class="blackHr">
+        <!--- from here starting to show the cards-->
+        <div class ="mainContainer">
+        <!-----------------------1 mercedes------------------->
+        <div class = "carCard" onclick="window.location.href = 'Details/mercedes_details.html'" style ="cursor: pointer;">                                       
+            <img src="../Assets/images/mercedes.avif" alt="mercedes">
+            <h3>Mercedes-AMG GT</h3>
+            <small>2024 | Executive Edition</small><br>
+            <small style="color: green;font-size: 12px;"> Free cancellation up to 48h</small><br>
+            <p class="price">$280.00</p><small>/day</small> <br>
+            <a href="Booking_page.html" class ="rent_button">Rent Now</a>
+        </div>
+<!-------------------------------2 Porsche----------------------------------->
+        <div class = "carCard" onclick="window.location.href = 'Details/porsch_details.html'" style ="cursor: pointer;">
+            <img src="../Assets/images/porch.avif" alt="porch">
+            <h3>Porsche 718 Cayman GT4</h3>
+            <small>2023 | Track Ready</small><br>
+            <small style="color: green;font-size: 12px;"> Free cancellation up to 48h</small><br>
+            <p class="price">$200.00</p><small>/day</small> <br>
+            <a href="Booking_page.html" class ="rent_button">Rent Now</a>
+        </div>
+<!------------------------------3 BMW------------------------------------>
+        <div class = "carCard" onclick="window.location.href = 'Details/x6_details.html'" style ="cursor: pointer;">
+            <img src="../Assets/images/x6.jpg" alt="BMW">
+            <h3>BMW X6 M-Sport</h3>
+            <small>2023 | High Performance SUV</small><br>
+            <small style="color: green;font-size: 12px;"> Free cancellation up to 48h</small><br>
+            <p class="price">$245.00</p><small>/day</small> <br>
+            <a href="Booking_page.html" class ="rent_button">Rent Now</a>
+        </div>
+
+
+
+        </div>
+        <script src="../JS/theme.js"></script>
+    </body>
+</html>

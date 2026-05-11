@@ -1,0 +1,155 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+     margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scrollbar-width: none;
+}
+body{
+    background-color: rgb(248, 249, 250);
+    
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 15px;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.luxurybutton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+.left{
+    width:60%;
+    padding:110px 100px;
+    border-right:1px solid #ddd;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 10%;
+    gap: 60px;
+}
+
+.rightside,.left {
+    flex:1;
+}
+
+
+.left h2 {
+    font-size: 32px;
+    
+    
+}
+
+.left p {
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1;
+    padding:6px;
+    
+}
+
+.left h4 {
+    margin: 7px 0 5px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.rightside {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #f0f0f0;
+    height: fit-content;
+}
+
+.rightside h3 {
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    height: 45px;
+}
+textarea {
+   width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    height: 100px;
+    resize: none;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 8px ;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+/*AYMAN code*/
+hr {
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    height: 1px;
+}
+
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}

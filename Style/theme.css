@@ -1,0 +1,104 @@
+body.dark-theme {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+body.dark-theme nav {
+    background-color: #333333 !important;
+}
+
+body.dark-theme .container {
+    background-color: #1a1a1a !important;
+}
+/*catalog*/
+.main-title {
+    color: #333; 
+    display: block !important; 
+}
+
+body.dark-theme .main-title {
+    color: #ffffff !important; 
+}
+/*book*/
+body.dark-theme h3, 
+body.dark-theme small, 
+body.dark-theme p,
+body.dark-theme h1,
+body.dark-theme h2 {
+    color: #ffffff !important;
+}
+
+body.dark-theme .carCard {
+    background-color: #2d2d2d !important;
+    border: 1px solid #444 !important;
+}
+
+body.dark-theme .price {
+    color: #f1c40f !important;
+}
+
+body.dark-theme .mainContainer {
+    background-color: #1a1a1a !important;
+}
+
+body.dark-theme a {
+    color: #ffffff !important;
+}
+/*contact*/
+body.dark-theme .rightside h3 {
+    color: black !important;
+}
+/*login*/
+input {
+    background-color: transparent;
+    color:white;
+}
+/*price*/
+.price strong{
+    color:white;
+}
+body.dark-theme .content-side{
+background-color: #333333;
+}
+
+body.dark-theme .btn-1:hover{
+    color : black !important;
+}
+.dark-theme .carCard .rent_button:hover{
+color: black !important;
+
+}
+.dark-theme .hero{
+background-color: #1a1a1a !important;
+}
+
+.dark-theme .service-card{
+background-color: #2e2e2e !important;
+}
+.dark-theme .services{
+    background-color: #1a1a1a !important;
+}
+.dark-theme .booking-contact{
+    background-color: #1a1a1a !important;
+}
+.dark-theme .rightside{
+background-color: #2e2e2e !important;
+color: white !important;
+}
+.dark-theme .rightside  label{
+    color: white;
+}
+body .dark-theme .rightside .h3-3 {
+    color: white !important;
+}
+.dark-theme .right {
+    background-color:#303030 !important ;
+}
+.dark-theme .h1 ,.dark-theme label{
+    color :white ;
+}
+
+body .dark-theme label {
+    color: white !important;
+}
+
